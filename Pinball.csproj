@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A75053B5-F01E-B592-1571-9C13F73E9BB0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.6.3p1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_3;UNITY_5_6;UNITY_5;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_3;UNITY_5_6;UNITY_5;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\UnityAssemblies\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\UnityAssemblies\Mono.Cecil.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\Entities\Buff\Buff.cs" />
+    <Compile Include="Assets\Scripts\Entities\Buff\BuffBase.cs" />
+    <Compile Include="Assets\Scripts\Entities\Buff\Buffable.cs" />
+    <Compile Include="Assets\Scripts\Entities\Buff\Buffs.cs" />
+    <Compile Include="Assets\Scripts\Entities\Buff\HeroBuff.cs" />
+    <Compile Include="Assets\Scripts\Entities\Buff\HeroBuffs\LeerBuff.cs" />
+    <Compile Include="Assets\Scripts\Entities\Buff\HeroBuffs\MeditateBuff.cs" />
+    <Compile Include="Assets\Scripts\Entities\Buff\MinionBuff.cs" />
+    <Compile Include="Assets\Scripts\Entities\Buff\MinionBuffs\EntangledBuff.cs" />
+    <Compile Include="Assets\Scripts\Entities\Buff\MinionBuffs\HealingMistBuff.cs" />
+    <Compile Include="Assets\Scripts\Entities\Buff\MinionBuffs\HunterMarkBuff.cs" />
+    <Compile Include="Assets\Scripts\Entities\Bumper\Bumper.cs" />
+    <Compile Include="Assets\Scripts\Entities\Bumper\WallBumper.cs" />
+    <Compile Include="Assets\Scripts\Entities\Effect\PersistentEffect.cs" />
+    <Compile Include="Assets\Scripts\Entities\Effect\PersistentEffects\SimpleEffect.cs" />
+    <Compile Include="Assets\Scripts\Entities\Effect\TransientEffect.cs" />
+    <Compile Include="Assets\Scripts\Entities\Effect\TransientEffects\TextEffect.cs" />
+    <Compile Include="Assets\Scripts\Entities\Entity\CollectionEntity.cs" />
+    <Compile Include="Assets\Scripts\Entities\Entity\GameEntity.cs" />
+    <Compile Include="Assets\Scripts\Entities\Entity\PointEntity.cs" />
+    <Compile Include="Assets\Scripts\Entities\Health.cs" />
+    <Compile Include="Assets\Scripts\Entities\Hero\Hero.cs" />
+    <Compile Include="Assets\Scripts\Entities\Hero\HeroResouces.cs" />
+    <Compile Include="Assets\Scripts\Entities\Hero\Heroes.cs" />
+    <Compile Include="Assets\Scripts\Entities\Hero\Heroes\HeroStats.cs" />
+    <Compile Include="Assets\Scripts\Entities\Hero\Heroes\NatureHero.cs" />
+    <Compile Include="Assets\Scripts\Entities\Hero\Heroes\WolfHero.cs" />
+    <Compile Include="Assets\Scripts\Entities\Hero\MinionSpawner.cs" />
+    <Compile Include="Assets\Scripts\Entities\Hero\Paddle\AimRegion.cs" />
+    <Compile Include="Assets\Scripts\Entities\Hero\Paddle\Paddle.cs" />
+    <Compile Include="Assets\Scripts\Entities\Level\Goal.cs" />
+    <Compile Include="Assets\Scripts\Entities\Level\Level.cs" />
+    <Compile Include="Assets\Scripts\Entities\Level\LevelObjects\Garden\Bee.cs" />
+    <Compile Include="Assets\Scripts\Entities\Level\LevelObjects\Garden\BeeManager.cs" />
+    <Compile Include="Assets\Scripts\Entities\Level\LevelObjects\Garden\CenterRose.cs" />
+    <Compile Include="Assets\Scripts\Entities\Level\LevelObjects\Garden\FlowerBed.cs" />
+    <Compile Include="Assets\Scripts\Entities\Level\LevelObjects\Garden\SideFlower.cs" />
+    <Compile Include="Assets\Scripts\Entities\Level\LevelObjects\Garden\SideFlowerSpawner.cs" />
+    <Compile Include="Assets\Scripts\Entities\Level\LevelObjects\PointGenerator.cs" />
+    <Compile Include="Assets\Scripts\Entities\Level\LevelObjects\Tree.cs" />
+    <Compile Include="Assets\Scripts\Entities\Level\LevelObjects\Well.cs" />
+    <Compile Include="Assets\Scripts\Entities\Level\LevelObjects\WellCenter.cs" />
+    <Compile Include="Assets\Scripts\Entities\Level\LevelObjects\WellSwitch.cs" />
+    <Compile Include="Assets\Scripts\Entities\Level\SpawnPosition.cs" />
+    <Compile Include="Assets\Scripts\Entities\Minion\Minion.cs" />
+    <Compile Include="Assets\Scripts\Entities\Minion\MinionStats.cs" />
+    <Compile Include="Assets\Scripts\Entities\Minion\MinionWaypoint.cs" />
+    <Compile Include="Assets\Scripts\Entities\Minion\Minions.cs" />
+    <Compile Include="Assets\Scripts\Entities\Minion\Minions\NatureMinion.cs" />
+    <Compile Include="Assets\Scripts\Entities\Minion\Minions\WolfMinion.cs" />
+    <Compile Include="Assets\Scripts\Entities\Orb\Orb.cs" />
+    <Compile Include="Assets\Scripts\Entities\Orb\OrbBehavior.cs" />
+    <Compile Include="Assets\Scripts\Entities\Orb\OrbBehaviors\NatureOrbBehavior.cs" />
+    <Compile Include="Assets\Scripts\Entities\Orb\OrbBehaviors\WolfOrbBehavior.cs" />
+    <Compile Include="Assets\Scripts\Entities\Orb\OrbCenter.cs" />
+    <Compile Include="Assets\Scripts\Entities\Orb\OrbSpinIndicator.cs" />
+    <Compile Include="Assets\Scripts\Entities\Player\Player.cs" />
+    <Compile Include="Assets\Scripts\Entities\Projectile\Projectile.cs" />
+    <Compile Include="Assets\Scripts\Entities\Projectile\ProjectileFactory.cs" />
+    <Compile Include="Assets\Scripts\Entities\Projectile\ProjectileMover.cs" />
+    <Compile Include="Assets\Scripts\Entities\Projectile\ProjectileMovers\LaneMover.cs" />
+    <Compile Include="Assets\Scripts\Entities\Projectile\Projectiles\RootsProjectile.cs" />
+    <Compile Include="Assets\Scripts\Entities\Spells\SlashSpell.cs" />
+    <Compile Include="Assets\Scripts\Entities\Spells\Spell.cs" />
+    <Compile Include="Assets\Scripts\Entities\Waypoint\Waypoint.cs" />
+    <Compile Include="Assets\Scripts\Extensions\MathHelper.cs" />
+    <Compile Include="Assets\Scripts\Extensions\MonoBehaviourExtensions.cs" />
+    <Compile Include="Assets\Scripts\Extensions\States\EntityState.cs" />
+    <Compile Include="Assets\Scripts\Extensions\States\EntityStateMachine.cs" />
+    <Compile Include="Assets\Scripts\Extensions\States\MultiStateMachine.cs" />
+    <Compile Include="Assets\Scripts\Extensions\Timer.cs" />
+    <Compile Include="Assets\Scripts\Hud\ControllerOverlay.cs" />
+    <Compile Include="Assets\Scripts\Hud\Controllers\AIController.cs" />
+    <Compile Include="Assets\Scripts\Hud\Controllers\HeroController.cs" />
+    <Compile Include="Assets\Scripts\Hud\Controllers\MoveGrid.cs" />
+    <Compile Include="Assets\Scripts\Hud\Controllers\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Hud\Controllers\UnmoveableSpot.cs" />
+    <Compile Include="Assets\Scripts\Hud\GoalHealthBar.cs" />
+    <Compile Include="Assets\Scripts\Hud\HeroHealthBar.cs" />
+    <Compile Include="Assets\Scripts\Hud\Hud.cs" />
+    <Compile Include="Assets\Scripts\Hud\MinionHealthBar.cs" />
+    <Compile Include="Assets\Scripts\Hud\ProgressBar.cs" />
+    <Compile Include="Assets\Scripts\Hud\ScoreBar.cs" />
+    <Compile Include="Assets\Scripts\Managers\EntityManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\FloatingTextManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\HudManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\InputManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\LevelManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\Loader.cs" />
+    <Compile Include="Assets\Scripts\Managers\MatchManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\ObjectManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\ResourceManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\SettingsManager.cs" />
+    <Compile Include="Assets\Scripts\Managers\SoundManager.cs" />
+    <Compile Include="Assets\Scripts\SpriteWrapper.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>
